@@ -32,3 +32,10 @@ hr{
 table, th, td {
   border:1px solid black;
 }
+
+.middleContent{
+  height : 100%;
+  margin-left : auto;
+  margin-right : auto;
+  width: 600px;
+}
