@@ -1,7 +1,11 @@
 html, body {
   height: 100%;
   width: 100%;
+  margin: 0;
+  background: lightgray;
+  font-family: 'Poppins', sans-serif;
 }
+
 .indented{ 
   padding-left: 50pt; 
   padding-right: 50pt; 
@@ -38,6 +42,8 @@ hr{
 
 
 
+
+
 .character{
   position: absolute;
   width: 300px;
@@ -56,6 +62,8 @@ tbody{
   margin-left : auto;
   margin-right : auto;
   width: 600px;
+  
+  padding: 15px 5px;
 }
 
 .subtitle{
@@ -88,6 +96,9 @@ table, th, td {
 border-radius: 7px;
 }
 
+header{
+  position:absolute;
+}
 
 
 th, td{
