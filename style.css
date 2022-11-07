@@ -159,3 +159,7 @@ border-bottom-right-radius: 6px;
 .indented ul{
   width: 200px;
 }
+
+.middleContent h1, .middleConnect h3, .middleContent h2{
+  text-align: center;
+}
