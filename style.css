@@ -163,3 +163,99 @@ border-bottom-right-radius: 6px;
 .middleContent h1, .middleConnect h3, .middleContent h2{
   text-align: center;
 }
+
+.row {
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 80px;
+}
+
+
+
+.product, .product button{
+  line-height: 50px;
+  height:220px;
+  position:relative;
+  display:inline-block;
+  width:190px;
+  top:0;
+  transition: top ease 0.5s;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0)) !important;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border:1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+
+
+.product a, .product button{
+  text-decoration: none;
+  color:black;
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+}
+
+
+.product a img, .product button img{
+  transform: translateY(10%);
+  border-radius:15px;
+  vertical-align: middle;
+  width:130px;
+  object-fit: cover;
+}
+
+
+
+.product:hover{
+  top: -10px;
+}
+
+
+/* useless now
+.button {
+  
+  border: none;
+  color: black;
+  background-color: white;
+    padding: 8px 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.5em;
+    margin-right: auto;
+    margin-left: auto;
+    cursor: pointer;
+    border-radius: 40px;
+  
+  }
+  
+  */
+
+
+
+
+/* Make sure you are not accessing this website on a 2009 Nokia */
+.screencheck{
+  background: transparent;
+  z-index: -5;
+}
+.centeredscrfail{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:transparent;
+  z-index:0;
+  background-color: transparent;
+  display:none;
+}
+.products{
+  position: relative;
+  padding: 100px;
+  z-index: 100;
+  padding: 30px 0px;
+}
