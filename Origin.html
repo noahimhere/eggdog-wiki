@@ -5,7 +5,7 @@
   <script src="script.js"></script>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title></title>
+  <title>Origin</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -98,8 +98,8 @@
   </tbody>
   <div class="inlined">
     <hr>
-  <div class="indented"><p>Origin;</p>
-    <span id="DifferentOrigin"></span>
+  <div class="indented"><p>Origin:</p>
+    <p id="header">Origin</p>
   </div>
   <hr>
   
@@ -119,6 +119,25 @@
 </div>
 </div>
 </div>
+<script>
+  const title=document.getElementById("header");
+let currentIndex = 0;
+let intervalLength = 100;
+let titleArray = [
+  "The original eggdog was first found enclosed in ice during the early 1920's, and was released from the ice a bit later. From then, the eggdog empire began. It used mitosis to develop more of itself, and overpowered humans.",
+  "The original eggdog was a normal edible egg bought at a supermarket during 20XX. However, it turned out that the egg had some sort of ge",
+  "During 1700BC's, eggdogs were first born into the world via carbon-life fabricator made by the turnips. They were meant to be slaves, but the eggdogs refused. The war between them has been going on since.",
+  "The origin has never existed."
+];
+setInterval(()=>{
+   title.innerText = titleArray[currentIndex%titleArray.length];
+  currentIndex++;
+},intervalLength)
+</script>
 </body>
+
+<head>
+  <script src="script.js"></script>
+</head>
 
 </html>
