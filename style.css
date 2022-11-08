@@ -2,7 +2,7 @@ html, body {
   height: 100%;
   width: 100%;
   margin: 0;
-  background: lightgray;
+  background: rgb(221, 221, 221);
   font-family: 'Poppins', sans-serif;
 }
 
@@ -62,8 +62,9 @@ tbody{
   margin-left : auto;
   margin-right : auto;
   width: 600px;
-  
   padding: 15px 5px;
+  background: lightgray;
+  height: 100vh;
 }
 
 .subtitle{
